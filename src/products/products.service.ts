@@ -18,6 +18,20 @@ export class ProductsService {
       ],
       spotlight: false,
     },
+    {
+      id: 2,
+      item: 'Jersey Los Angeles Angels',
+      description: 'Jersey number 27 - Mike Trout for Los Angeles Angels',
+      sku: 123456,
+      price: 189.55,
+      quantity: 2,
+      color: [
+        'red',
+        'grey',
+        'white',
+      ],
+      spotlight: true,
+    },
   ];
 
   getAllProducts() {
